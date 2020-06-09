@@ -15,7 +15,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 names = ['sepsal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
-dataset = pd.read_csv("C:\\Users\\Arsalan Ashraf\\Desktop\\DSLMidPrep\\Week 4\\iris.data", names=names)
+dataset = pd.read_csv("E:\\DS\\iris.data", names=names)
 print(dataset)
 
 dataset.shape
